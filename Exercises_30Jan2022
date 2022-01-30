@@ -1,0 +1,33 @@
+#Calculate perimeter of the circle
+
+radius=float(input("Enter radius of circle: "))
+
+perimeter_of_circle=2*3.14*radius
+
+print(f"Perimeter of the circle is ", float(perimeter_of_circle))
+
+print(f"Perimeter of the circle is ", int(perimeter_of_circle))
+
+
+#Calculate area of circle
+
+radius=float(input("Enter radius of circle: "))
+
+Area_of_circle=3.14*radius*radius
+
+print(f"Area of the circle is ", float(Area_of_circle))
+
+print(f"Area of the circle is ", int(Area_of_circle))
+
+
+#Calculate area of cone
+
+radius=float(input("Enter radius of cone: "))
+
+height=float(input("Enter height of cone: "))
+
+Area_of_cone=0.33*3.14*radius*height
+
+print(f"Area of the circle is ", float(Area_of_cone))
+
+print(f"Area of the circle is ", int(Area_of_cone))  
