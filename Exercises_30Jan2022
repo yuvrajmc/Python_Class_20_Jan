@@ -31,3 +31,18 @@ Area_of_cone=0.33*3.14*radius*height
 print(f"Area of the circle is ", float(Area_of_cone))
 
 print(f"Area of the circle is ", int(Area_of_cone))  
+
+#Calculate area of geometry
+
+length=float(input("Enter length of geometry: "))
+
+breadth=float(input("Enter breadth of geometry: "))
+
+height=float(input("Enter height of geometry: "))
+
+Area_of_geometry=(length * breadth) + (length * height)
+
+print("Area of the geometry {} length {} breadth {} and height {} is " .format(Area_of_geometry, length, breadth, height))
+
+
+
