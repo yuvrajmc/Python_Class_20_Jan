@@ -80,3 +80,30 @@ Enter the Y's name height: y 1.2
 
 Enter the Y's name height: z 1.3
 Average height is  1.2
+=================================================
+Task4:
+
+#collect two strings from user
+
+#string1: python
+#String2: java
+
+#Program
+
+string1=input("Define the string1: ")
+string2=input("Define the string2: ")
+
+Output_string1= string2[0] + string1[1:]+ string2[1:]
+
+Output_string2= str(len(string1)) + str(len(string2))  + string1[int(len(string1)/2)] + string2[int(len(string2)/2)]  
+
+Output_string= Output_string1+Output_string2
+                 
+print(Output_string)
+
+#output
+Define the string1: python
+
+Define the string2: java
+jythonava64hv
+
