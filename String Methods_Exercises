@@ -18,3 +18,40 @@ Define string1: Random
 Length of the string1 is  6
 The middle character of the string is  d
 =============================================
+#Task 2:
+#Get strings from user and remove the * and empty spaces
+
+string1: ***python***
+string1: **python********
+string: ********java*******
+
+#Program
+
+string1 = "***python***"
+string2 = "**python********"
+string3 = "        java          "
+
+print(string1.strip("*"))
+print(string2.strip("*"))
+print(string3.strip(" "))
+
+
+print(string1.lstrip("*"))
+print(string2.lstrip("*"))
+print(string3.lstrip(" "))
+
+print(string1.rstrip("*"))
+print(string2.rstrip("*"))
+print(string3.rstrip(" "))
+
+#output
+python
+python
+java
+python***
+python********
+java          
+***python
+**python
+        java
+================================
