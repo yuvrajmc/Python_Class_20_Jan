@@ -1,1 +1,20 @@
+=================================
+#Task 1:
+#Get one string from user
+#identify the middle character of the string
 
+#Program
+
+String1= input("Define string1: ")
+
+print("Length of the string1 is ", len(String1))
+
+Middle_Character= String1[(int(len(String1)/2))]
+
+print("The middle character of the string is ", Middle_Character)
+
+#Output
+Define string1: Random
+Length of the string1 is  6
+The middle character of the string is  d
+=============================================
