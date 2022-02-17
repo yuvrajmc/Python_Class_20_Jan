@@ -106,4 +106,27 @@ Define the string1: python
 
 Define the string2: java
 jythonava64hv
+====================================
+#Task6:
 
+#collect one string from user:
+
+#string: computer
+#output: c6r
+
+#string: mathematics
+#output: m9s
+
+#Program
+str1=input("Define the str1: ")
+                 
+output_str = str1[0] + str(len(str1)-2) + str(str1[len(str1)-1])
+
+print(output_str)
+
+#output
+Define the str1: computer
+c6r
+Define the str1: mathematics
+m9s
+================================
