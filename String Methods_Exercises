@@ -130,3 +130,33 @@ c6r
 Define the str1: mathematics
 m9s
 ================================
+#Task7
+
+#Say hello world with python
+#Program
+
+print("hello world")
+
+#output
+
+hello world
+
+====================================
+
+#Task8-Swapcase 
+
+#Program
+a = "small case"
+b = "BIG CASE"
+c= "MiXeD CaSe"
+
+print(a.capitalize())
+print(b.swapcase())
+print(c.title())
+
+#Output
+Small case
+big case
+Mixed Case
+
+================================
