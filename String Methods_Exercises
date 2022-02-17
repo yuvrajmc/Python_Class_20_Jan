@@ -55,3 +55,28 @@ java
 **python
         java
 ================================
+#Task3: (name<space>float)
+
+#collect three strings from user  name<space>float, remove the names and add the numbers
+
+#Program
+X_details=input("Enter the X's name height: ")
+Y_details=input("Enter the Y's name height: ")
+Z_details=input("Enter the Y's name height: ")
+
+X_sep=X_details.split(" ")
+Y_sep=Y_details.split(" ")
+Z_sep=Z_details.split(" ")
+
+Avg_Height= (float(X_sep[1]) + float(Y_sep[1]) + float(Z_sep[1]))
+
+print("Average height is ", Avg_Height/3)
+
+#output
+
+Enter the X's name height: x 1.1
+
+Enter the Y's name height: y 1.2
+
+Enter the Yz's name height: z 1.3
+Average height is  1.2
