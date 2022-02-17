@@ -160,3 +160,30 @@ big case
 Mixed Case
 
 ================================
+#Task11:
+#Arithmetic Operators
+#Take 2 integers as an input
+#Add the 2 numbers
+#Subtract the 2 numbers
+#Multiply the 2 numbers
+
+#Program
+
+a = int(input("Enter value of a:"))
+b = int(input("Enter value of b:"))
+Addition= a+b
+Substraction=a-b
+Multiplication=a*b
+
+print("the addition of a and b is: ", Addition)
+print("the substraction of a and b is: ", Substraction)
+print("the multiplication of a and b is: ", Multiplication)
+
+#output
+Enter value of a:5
+
+Enter value of b:2
+the addition of a and b is:  7
+the substraction of a and b is:  3
+the multiplication of a and b is:  10
+===========================================================
