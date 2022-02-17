@@ -1,0 +1,27 @@
+====================
+#List tasks
+#Create an empty list (two ways)
+#Concatenate with [5,6,7,8]
+#add 8,9,1,5,6,7,8,1 elements to that list
+#Find frequency of 8 (count)
+#find the mean of the list
+#find sum (List) + min + Max 
+#Find median of the list
+#remove duplicates from list and give output in the format of tuple
+
+#Program
+#Create an empty list
+List1= []
+
+#Concatenate with [5,6,7,8]
+List2= [5,6,7,8]
+List_cont= List1+List2
+print(List_cont)
+
+#Extend with [8,9,1,5,6,7,8,1]
+List_cont.extend([8,9,1,5,6,7,8,1])
+print(List_cont)
+
+#Output
+[5, 6, 7, 8]
+[5, 6, 7, 8, 8, 9, 1, 5, 6]
